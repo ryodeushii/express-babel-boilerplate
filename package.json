@@ -1,7 +1,7 @@
 {
   "name": "express-babel-boilerplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "Express boilerplate which works with Babel and with set up eslint",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -44,7 +44,7 @@
     "eslint-plugin-react": "^7.11.1",
     "nodemon": "^1.18.4"
   },
-  "author": "",
+  "author": "E.Kapusta <3193631@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ryodeushii/express-babel-boilerplate/issues"
