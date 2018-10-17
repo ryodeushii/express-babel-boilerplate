@@ -1,0 +1,64 @@
+{
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "parserOptions": {
+    "ecmaVersion": 2017,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "rules": {
+    "no-process-env":"off",
+    "no-nested-ternary": "warn",
+    "import/no-unresolved": "warn",
+    "import/prefer-default-export": "off",
+    "prefer-const": "error",
+    "no-extra-semi": "error",
+    "prefer-destructuring": [
+      "warn"
+    ],
+    "comma-dangle": "error",
+    "no-restricted-globals": [
+      "off"
+    ],
+    "no-trailing-spaces": "error",
+    "no-underscore-dangle": "warn",
+    "comma-spacing": "error",
+    "no-unused-vars": "warn",
+    "no-duplicate-imports": "error",
+    "object-curly-spacing": [
+      2,
+      "always"
+    ],
+    "object-curly-newline": [
+      "error"
+    ],
+    "linebreak-style": [
+      "error",
+      "unix"
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ]
+  },
+  "settings": {
+    "import/resolver": {
+      "alias": {
+        "map": [
+          ["configs", "./configs"],
+          ["utils", "./utils"]
+        ]
+      }
+    }
+  }
+}

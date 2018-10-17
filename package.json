@@ -1,0 +1,53 @@
+{
+  "name": "express-babel-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "NODE_PATH=. PATH=$(npm bin):$PATH nodemon server.js --exec babel-node",
+    "start": "NODE_PATH=. PATH=$(npm bin):$PATH babel-node server.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryodeushii/express-babel-boilerplate.git"
+  },
+  "dependencies": {
+    "@types/express": "^4.16.0",
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.2",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.3",
+    "moment": "^2.22.2",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.1.2",
+    "@babel/node": "^7.0.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/plugin-proposal-optional-chaining": "^7.0.0",
+    "@babel/plugin-transform-destructuring": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "eslint": "^5.1.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-airbnb-base": "^12.0.1",
+    "eslint-config-google": "^0.9.1",
+    "eslint-import-resolver-alias": "^1.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "nodemon": "^1.18.4"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryodeushii/express-babel-boilerplate/issues"
+  },
+  "homepage": "https://github.com/ryodeushii/express-babel-boilerplate#readme"
+}
