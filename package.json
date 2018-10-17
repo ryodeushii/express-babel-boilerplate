@@ -44,7 +44,7 @@
     "eslint-plugin-react": "^7.11.1",
     "nodemon": "^1.18.4"
   },
-  "author": "E.Kapusta <3193631@gmail.com>",
+  "author": "Eugene Kapusta <3193631@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ryodeushii/express-babel-boilerplate/issues"
